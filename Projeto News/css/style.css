@@ -111,6 +111,8 @@ span.material-symbols-outlined {
 
 .wrapper {
     width: 100%;
+    display: flex;
+    overflow: hidden;
 }
 
 .wrapper img {
@@ -150,7 +152,6 @@ main{
 
 .artigos {
     width: 480px;
-    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -166,7 +167,9 @@ main{
 .artigo-1 {
     display: flex;
     padding-bottom: 2px;
-    flex: 1;
+    border-left: 1px solid #cdcd;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
 .artigo-1 img {
@@ -200,9 +203,16 @@ article {
     margin-left: 10px;
 }
 
+.selection a:hover{
+    color: rgba(10, 99, 223, 0.933);
+}
+
+.selection a{
+    margin: 0;
+}
+
 article-2 {
     display: flex;
-    flex: 1;
     margin-bottom: 10px;
 }
 
@@ -210,9 +220,39 @@ article-2 {
     margin: 0;
 }
 
+body
 
 
+.politica-principal{
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.politica{
+    width: 310px;
+    max-width: 1440px;
+}
+
+.politica h2 {
+    font-size: 18px;
+    margin-top: 11px;
+}
+
+.politica-principal img{
+    display: block;
+    width: 310px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px #cdcdcd;
+}
+
+#destaque h2{
+    color: #770101;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #a5a5a5;
+}
 
 footer {
     color: #ffffff;

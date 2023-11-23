@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <label for="">Digite o número</label>
+    <input type="text" name="" id="numberInput">
+    <button onclick="calculateSquareRoot()">
+    Calcular a raiz quadrada
+    </button>
+    <p id="result"></p>
+    <p id="error"></p>
+    
+    <script>
+        function calculateSquareRoot(){
+            document.getElementById('result').textContent = '';
+            
+            const userInput = 
+            document.getElementById('numberInput').value;
+
+
+            try{ 
+            const number = parseFloat(userInput);
+
+                if(isNaN(number)){
+                    throw new Error('Digite un número válido');
+                }
+
+                if(number<0){
+                    throw new Error('não possível calcular a raiz negativa do número');
+                }
+
+            const result = Math.sqrt(number);
+            document.getElementById('result').textContent = 
+            `A raiz quadrada de ${number} é: ${result.toFixed(2)}`}
+            
+                catch (error){
+                    document.getElementById('error.message')
+                }
+            }
+
+    </script>
+</body>
+</html>

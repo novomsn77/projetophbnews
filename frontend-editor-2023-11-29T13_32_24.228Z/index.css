@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh ;
+  
+}
+
+#elemento-alvo{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 15px;
+    height: 50vh;
+    justify-content: center;
+}
+
+
+
+p{
+  font-size: 35px;
+}
+
+
+button{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}

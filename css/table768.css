@@ -1,0 +1,26 @@
+
+@media (max-width: 768px){
+    .principal-noticia{
+    flex-direction: column;
+    margin: 15px;
+    width: 95%;
+    } 
+
+    .politica-principal{
+        flex-direction: column;
+    width: 95%;
+    margin: auto;
+    }
+
+    .politica-principal .politica{
+        display: flex;
+        width: 95%;
+        margin-bottom: 15px;
+    }
+
+    .noticiam3{
+        flex-direction: column;
+        width: 95%;
+    margin: auto;
+    }
+}

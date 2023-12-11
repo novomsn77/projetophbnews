@@ -18,7 +18,7 @@
 }
 
 
-.cabecalho {
+.main_site {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,14 +46,14 @@ h1 span {
     width: 75px;
 }
 
-.menu-principal {
+.menu{
     width: 100%;
     margin: auto;
     box-shadow: 0px 2px 8px #cdcdcd;
     background-color: #ececec;
 }
 
-.menu {
+.navigation {
     display: flex;
     justify-content: space-between;
     width: 820px;
@@ -80,7 +80,7 @@ i:hover {
     transition: all .3s ease-in-out;
 }
 
-#carrossel-principal {
+#carrossel {
     position: relative;
     margin: auto;
     width: 100%;
@@ -349,7 +349,6 @@ gap: 15px;
 footer {
     color: #ffffff;
     width: 100%;
-    height: 150px;
     position: relative;
     bottom: 0;
     text-align: center;
@@ -358,4 +357,47 @@ footer {
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(8, 3, 179, 1) 28%, rgba(0, 10, 83, 1) 100%);
+}
+
+.copyright{
+    margin-top:15px;
+    background-color:#ececec;
+    width: 100%;
+    padding: 0;
+    padding: 25px;
+    color: #4d4d4d;
+}
+
+
+.contacts{
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-between;
+    padding: 25px;
+   
+}
+
+
+#redes_social, h3{
+    color: #fff;
+    text-align: left;
+    margin-left: 0;
+}
+
+#social{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+#redes_social i{
+   font-style: normal;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+#social_media{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }

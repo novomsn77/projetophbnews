@@ -1,0 +1,28 @@
+
+@media (max-width: 450px ){
+    
+.principal-noticia{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+.artigos {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.politica-principal{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+}
+    
+
+
